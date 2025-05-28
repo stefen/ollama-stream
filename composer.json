@@ -1,9 +1,24 @@
 {
     "name": "pandarose/ollama-stream",
+    "description": "Stream a real-time response from a local Ollama model",
+    "keywords": [
+        "ollama",
+        "llm",
+        "ai",
+        "amp",
+        "async"
+    ],
+    "authors": [
+        {
+            "name": "Stefen Enns",
+            "email": "senns@pandarose.ca"
+        }
+    ],
+    "license": "MIT",
     "autoload": {
-      "psr-4": {
-        "PandaRose\\": "classes"
-      }
+        "psr-4": {
+            "PandaRose\\": "classes"
+        }
     },
     "require": {
         "amphp/amp": "^3.1",
