@@ -1,0 +1,13 @@
+{
+    "name": "pandarose/ollama-stream",
+    "autoload": {
+      "psr-4": {
+        "PandaRose\\": "classes"
+      }
+    },
+    "require": {
+        "amphp/amp": "^3.1",
+        "revolt/event-loop": "^1.0",
+        "amphp/http-client": "^5.3"
+    }
+}
